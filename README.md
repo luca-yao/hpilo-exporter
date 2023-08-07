@@ -1,5 +1,11 @@
 # HP iLO Metrics Exporter
 
+Because my own environment has HP **ILO3** to **ILO5**, and **ILO3** does not have `AlertMail` function
+
+So I think it would be smarter if I can be notified if there is an exception through `Grafana Alerting`, so I made a small adjustment.
+
+At the same time, I have also adjusted the dashboard of Grafana. If there is no accident, it should be applied and can be used d(`･∀･)b
+
 Blackbox likes exporter used to exports HP Server Integrated Lights Out (iLO) states to Prometheus.
 
 ### Gauges
