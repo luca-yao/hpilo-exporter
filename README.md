@@ -1,10 +1,6 @@
 # HP iLO Metrics Exporter
 
-I couldn't find a version that supports python3 and a version that supports ILO3, so I modified one myself :)
-
 Blackbox likes exporter used to exports HP Server Integrated Lights Out (iLO) states to Prometheus.
-
-Sample data: https://jsoneditoronline.org/#left=cloud.ed5e0fe56d8d4e0f94a53576c879f404&right=local.nalera
 
 ### Gauges
 
@@ -147,5 +143,4 @@ Assuming:
     - target_label: __address__
       replacement: hpilo:8082  # hpilo exporter.
 ```
-
 
